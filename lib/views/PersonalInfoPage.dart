@@ -19,6 +19,7 @@ class PersonalInfoPageState extends State<PersonalInfoPage>
         leading:IconButton(icon:Icon(Icons.arrow_back),onPressed:(){
           Navigator.pop(context);
         },color:Colors.black87,),
+
         title:Text(StringsUtils.register,style:GoogleFonts.notoSans(textStyle:TextStyle(fontSize:20,
             fontWeight:FontWeight.w800,color:Colors.black87)),),
       ),

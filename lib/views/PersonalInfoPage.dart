@@ -22,6 +22,7 @@ class PersonalInfoPageState extends State<PersonalInfoPage>
         title:Text(StringsUtils.register,style:GoogleFonts.notoSans(textStyle:TextStyle(fontSize:20,
             fontWeight:FontWeight.w800,color:Colors.black87)),),
       ),
+
       body: Container(
 
       ),
